@@ -1,0 +1,7 @@
+{
+  "name": "CachyOS Codespace",
+  "build": { "dockerfile": "Dockerfile" },
+  "remoteUser": "codespace",
+  "updateRemoteUserUID": true,
+  "postCreateCommand": "sudo pacman -Syu --noconfirm"
+}
